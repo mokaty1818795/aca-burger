@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+.top-bread{
+  background-color: #ffd25a;
+  height: 5rem;
+  width: 30rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 2rem;
+}
+
+.base-bread{
+  margin-top: 1rem;
+  background-color: #ffd25a;
+  height: 5rem;
+  width: 30rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 1rem;
+}
+.tomato{
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  background-color:tomato ;
+  height: 5rem;
+  width: 30rem;
+}
+
+.meat{
+  margin-top: 1rem;
+  background-color: brown ;
+  height: 5rem;
+  width: 30rem;
+  border-radius: 0.3rem;
+}
+
+.lattice{
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background-color: green ;
+  height: 5rem;
+  width: 30rem;
+  border-radius: 0.3rem;
+}
+.meat p{
+  margin-top:20px;
+  text-align: center;
+  justify-content: center;
+}
+.lattice p{
+  margin-top:20px;
+  text-align: center;
+  justify-content: center;
+}
+.tomato p{
+  margin-top:20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.tomato-action{
+  margin-top: 1rem;
+  border:none;
+  background-color: #ffd25a;
+  height: 5rem;
+  width: 10rem;
+}
+
+.button-group{
+  display: flex;
+  justify-content: space-between; 
+}
